@@ -8,6 +8,10 @@ export default function Layout({ children }) {
     <>
       <Head>
         <title>My Secret garden</title>
+        <link
+          rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css"
+        />
       </Head>
       <NavBar></NavBar>
       <Container>{children} </Container>
