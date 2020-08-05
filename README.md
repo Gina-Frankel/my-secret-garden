@@ -12,17 +12,31 @@ yarn dev
 
 ## MVP
 
-### Homepage
+## Homepage
 
 1.
 
+### Heading
+
 ```
 As a user,
-the home page will provide a short description about the website
+I can read the websites name
+so that I know what the website is called
+```
+
+AC
+[x] Heading - "My Secret Garden
+
+### Subheading
+
+```
+As a user,
+I can read a short description about the website
 so that I can know the websites purpose
 ```
 
-AC - "Discover a garden near you "
+AC -
+[x] SubHeading - "Discover a garden near you "
 
 ```As a user,
 I can see a click a link to  Edgware gardens,
