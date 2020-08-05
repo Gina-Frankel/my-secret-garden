@@ -10,6 +10,61 @@ npm run dev
 yarn dev
 ```
 
+## MVP
+
+### Homepage
+
+1.
+
+```
+As a user,
+the home page will provide a short description about the website
+so that I can know the websites purpose
+```
+
+AC - "Discover a garden near you "
+
+```As a user,
+I can see a click a link to  Edgware gardens,
+So that I can be taken to a page with all the gardens in Edgware
+```
+
+AC - Link
+
+### Garden page
+
+```As a user,
+I can see a list of all the gardens
+So that I can choose a garden that I want to go to
+```
+
+AC -
+"Gardens near Edgware:
+Queen Mary's Rose Gardens
+Highlands Gardens
+Gardening Potts
+Northway Gardens
+Hampstead Heath
+The Hill Garden and Pergola
+Park Square"
+
+### Nav Bar
+
+```
+As a user,
+I can click on a link,
+So that I can navigate back to the home page
+```
+
+AC -
+
+- [x]Text
+- [x]Plant icon
+- [x]in Nav bar
+- [x]Link thats take user to home page
+
+---
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
