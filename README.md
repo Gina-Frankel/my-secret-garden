@@ -48,7 +48,9 @@ Hampstead Heath
 The Hill Garden and Pergola
 Park Square"
 
-### Nav Bar
+## Nav Bar
+
+### NavBar home page link
 
 ```
 As a user,
@@ -58,10 +60,10 @@ So that I can navigate back to the home page
 
 AC -
 
-- [x]Text
-- [x]Plant icon
-- [x]in Nav bar
-- [x]Link thats take user to home page
+- [x] Text
+- [x] Plant icon
+- [x] in Nav bar
+- [x] Link thats take user to home page
 
 ---
 
