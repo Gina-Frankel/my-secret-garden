@@ -8,7 +8,8 @@ export default function Home() {
       <main className={styles.main}>
         {" "}
         <Header size="large" color="teal">
-          Discover a garden near you
+          My Secret Garden
+          <Header.Subheader> Discover gardens near you </Header.Subheader>
         </Header>{" "}
       </main>
     </div>
