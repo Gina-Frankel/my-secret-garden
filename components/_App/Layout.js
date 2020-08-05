@@ -9,6 +9,7 @@ export default function Layout({ children }) {
         <title>My Secret garden</title>
       </Head>
       <Container>{children} </Container>
+      <footer>footer</footer>
     </>
   );
 }
