@@ -6,5 +6,4 @@ const GardenSchema = new mongoose.Schema({
 });
 
 // if model exist use it OR generate model
-export default mongoose.models.gardens ||
-  mongoose.model("garden", GardenSchema);
+export default mongoose.models.garden || mongoose.model("garden", GardenSchema);
