@@ -1,8 +1,11 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { Header } from "semantic-ui-react";
+import { Header, Button } from "semantic-ui-react";
+import Link from "next/link";
+//import React from "react";
+// import Map from "../components/Map";
 
-export default function Home() {
+function Home() {
   return (
     <div>
       <main className={styles.main}>
@@ -10,8 +13,13 @@ export default function Home() {
         <Header size="large" color="teal">
           My Secret Garden
           <Header.Subheader> Discover gardens near you </Header.Subheader>
-        </Header>{" "}
+        </Header>
+        <Link href="/gardens">
+          <Button> Gardens near Edgware</Button>
+        </Link>
       </main>
     </div>
   );
 }
+
+export default Home;
