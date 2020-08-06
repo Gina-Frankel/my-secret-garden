@@ -10,6 +10,14 @@ npm run dev
 yarn dev
 ```
 
+# Goal
+
+To use:
+
+- MERN
+- Site deployed
+- Google API
+
 ## MVP
 
 ## Homepage
@@ -38,14 +46,17 @@ so that I can know the websites purpose
 AC -
 [x] SubHeading - "Discover a garden near you "
 
+### Link to gardens page
+
 ```As a user,
 I can see a click a link to  Edgware gardens,
 So that I can be taken to a page with all the gardens in Edgware
 ```
 
-AC - Link
+AC -
+[x] Link - 'Gardens near Edgware'
 
-### Garden page
+### Garden List
 
 ```As a user,
 I can see a list of all the gardens
@@ -61,6 +72,17 @@ Northway Gardens
 Hampstead Heath
 The Hill Garden and Pergola
 Park Square"
+[x]
+
+### To Do
+
+[x] Gather Data from google Maps API
+[X] Create cluster on Mongo DB
+[X] Add data to cluster
+[x] Write Function to connect to DB
+[x] Call function
+[x] Get data from google Maps on to mongoDB
+[x] Front end - GardenList component
 
 ## Nav Bar
 
