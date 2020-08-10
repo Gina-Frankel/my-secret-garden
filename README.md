@@ -20,6 +20,8 @@ To use:
 
 ## MVP
 
+[x]
+
 ## Homepage
 
 1.
@@ -102,6 +104,23 @@ AC -
 - [x] Link thats take user to home page
 
 ---
+
+## Iteration 1
+
+```
+As a user,
+I can view details such as the location, and image about the gardens,
+So that I can choose the garden that meets my needs
+```
+
+AC
+
+- [x] Image
+- [x] location
+
+Nice to haves
+
+- [] Description
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
