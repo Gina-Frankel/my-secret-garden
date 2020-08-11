@@ -122,7 +122,36 @@ Nice to haves
 
 - [] Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# <<<<<<< Updated upstream
+
+## Iteration 2
+
+```
+As a user,
+I can click on different location links to take which will take me to a specific page based on location,
+so that I can choose gardens from three different locations
+```
+
+AC
+
+NORTH LONDON
+
+- [x] Retrieve from database based on north london
+- [x] page has query string - \_area=north-london
+- [x] page shows name, image, address
+
+MULTIPLE
+
+- [] Retrieve from database based on area
+- [ ] button
+- [ ] page has different query string
+- [ ] page shows name, image, address
+
+---
+
+> > > > > > > Stashed changes
+> > > > > > > Stashed changes
+> > > > > > > Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
