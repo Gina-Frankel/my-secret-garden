@@ -1,11 +1,18 @@
 import { Card } from "semantic-ui-react";
 
 function GardenList(props) {
-  const items = props.gardens.gardens.map((item) => ({
-    header: item.name,
-    color: "teal",
-    childKey: item._id,
-  }));
+  const decodeData = (data) => window.atob(data);
+
+  const items = props.gardens.gardens.map((item) => {
+    const data_URI = "data:image/jpeg;base64,";
+    return {
+      header: item.name,
+      description: item.address,
+      color: "teal",
+      childKey: item._id,
+      image: data_URI + decodeData(item.image),
+    };
+  });
 
   return (
     <>

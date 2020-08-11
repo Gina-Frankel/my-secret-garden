@@ -8,6 +8,6 @@ import connectDb from "../../utils/connectDb";
 connectDb();
 
 export default async (req, res) => {
-  const gardens = await garden.find();
+  const gardens = await garden.find({ area: req.query._area });
   res.status(200).json(gardens);
 };

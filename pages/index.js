@@ -14,8 +14,11 @@ function Home() {
           My Secret Garden
           <Header.Subheader> Discover gardens near you </Header.Subheader>
         </Header>
-        <Link href="/gardens">
-          <Button> Gardens near Edgware</Button>
+        <Link href="/gardens?_area=north-london">
+          <Button> Near North London</Button>
+        </Link>
+        <Link href="/gardens?_area=city">
+          <Button> Near the City</Button>
         </Link>
       </main>
     </div>
