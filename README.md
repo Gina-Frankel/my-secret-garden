@@ -10,13 +10,19 @@ npm run dev
 yarn dev
 ```
 
-# Goal
+## Deployed Website
 
-To use:
+Deployed using the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- MERN
-- Site deployed
-- Google API
+Visit the website at: https://my-secret-garden.vercel.app/
+
+# Learning Goals
+
+Use:
+
+- [x] MERN
+- [x]Site deployed
+- [x]Google API
 
 ## MVP
 
