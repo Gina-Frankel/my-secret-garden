@@ -11,10 +11,13 @@ function Gardens(props) {
 }
 
 // make a request to mongo from here
-Gardens.getInitialProps = async () => {
+Gardens.getInitialProps = async ({ query: { _area } }) => {
   const url = "http://localhost:3000/api/gardens";
-  const response = await axios.get(url);
-
+  const payload = { params: { _area } };
+  console.log("payload");
+  console.log(payload);
+  const response = await axios.get(url, payload);
+  // console.log(response);
   return { gardens: response.data };
 
   //fetch data on server to google
