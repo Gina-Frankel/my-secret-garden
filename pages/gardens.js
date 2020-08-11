@@ -1,8 +1,8 @@
 import axios from "axios";
 import GardenList from "../components/garden/GardenList";
+import baseUrl from "../utils/baseUrl";
 
 function Gardens(props) {
-  // console.log(props.gardens);
   return (
     <div>
       <GardenList gardens={props}></GardenList>
@@ -12,7 +12,7 @@ function Gardens(props) {
 
 // make a request to mongo from here
 Gardens.getInitialProps = async ({ query: { _area } }) => {
-  const url = "http://localhost:3000/api/gardens";
+  const url = `${baseUrl}/api/gardens`;
   const payload = { params: { _area } };
   console.log("payload");
   console.log(payload);
