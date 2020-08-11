@@ -2,7 +2,6 @@ import { Card } from "semantic-ui-react";
 
 function GardenList(props) {
   const decodeData = (data) => window.atob(data);
-  console.log(props.gardens.gardens[4].image_64);
 
   const items = props.gardens.gardens.map((item) => {
     const data_URI = "data:image/jpeg;base64,";
