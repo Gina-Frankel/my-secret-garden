@@ -21,6 +21,9 @@ function Home() {
         <Link href="/gardens?_area=south-east-london">
           <Button> Near South East London</Button>
         </Link>
+        <Link href="/gardens?_area=city-london">
+          <Button> Near city of London </Button>
+        </Link>
       </main>
     </div>
   );
