@@ -15,7 +15,6 @@ export default function Layout({ children }) {
       </Head>
       <NavBar></NavBar>
       <Container>{children} </Container>
-      <footer>footer</footer>
     </>
   );
 }
