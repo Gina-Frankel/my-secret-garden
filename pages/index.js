@@ -15,17 +15,21 @@ function Home() {
           My Secret Garden
           <Header.Subheader> Discover gardens near you </Header.Subheader>
         </Header>
-        <div className="ui vertical buttons">
+        <Button.Group>
           <Link href="/gardens?_area=north-london">
-            <Button> Near North London</Button>
+            <Button basic color="teal">
+              Near North London
+            </Button>
           </Link>
           <Link href="/gardens?_area=south-east-london">
-            <Button> Near South East London</Button>
+            <Button color="teal">Near South East London</Button>
           </Link>
           <Link href="/gardens?_area=city-london">
-            <Button> Near city of London </Button>
+            <Button basic color="teal">
+              Near city of London
+            </Button>
           </Link>
-        </div>
+        </Button.Group>
       </main>
     </div>
   );
