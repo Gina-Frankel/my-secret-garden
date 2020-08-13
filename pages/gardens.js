@@ -3,8 +3,10 @@ import GardenList from "../components/garden/GardenList";
 import baseUrl from "../utils/baseUrl";
 
 function Gardens(props) {
+  console.log(props.gardens[0].area);
   return (
     <div>
+      <h1> Gardens in {props.gardens[0].area}</h1>
       <GardenList gardens={props}></GardenList>
     </div>
   );
@@ -14,8 +16,7 @@ function Gardens(props) {
 Gardens.getInitialProps = async ({ query: { _area } }) => {
   const url = `${baseUrl}/api/gardens`;
   const payload = { params: { _area } };
-  console.log("payload");
-  console.log(payload);
+
   const response = await axios.get(url, payload);
   // console.log(response);
   return { gardens: response.data };
