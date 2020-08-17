@@ -1,4 +1,3 @@
-import "./GardenHeader.module.css";
 import styles from "../../styles/Home.module.css";
 
 function GardenHeader(props) {
