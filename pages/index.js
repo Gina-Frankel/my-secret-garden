@@ -21,8 +21,8 @@ function Home() {
       href: "/gardens?_area=north-east",
     },
   ];
-  const ButtonLink = ButtonLinks.map((linkItem) => (
-    <Link href={linkItem.href}>
+  const ButtonLink = ButtonLinks.map((linkItem, index) => (
+    <Link href={linkItem.href} key={index}>
       <Button basic color="teal">
         {linkItem.name}
       </Button>
@@ -32,7 +32,6 @@ function Home() {
   return (
     <div>
       <main className={styles.main}>
-        {" "}
         <Header size="large" color="teal">
           My Secret Garden
           <Header.Subheader> Discover gardens near you </Header.Subheader>
