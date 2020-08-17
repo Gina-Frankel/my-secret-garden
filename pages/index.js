@@ -16,6 +16,10 @@ function Home() {
       name: "Near South East London",
       href: "/gardens?_area=south-east-london",
     },
+    {
+      name: "Near North East London",
+      href: "/gardens?_area=north-east",
+    },
   ];
   const ButtonLink = ButtonLinks.map((linkItem) => (
     <Link href={linkItem.href}>
