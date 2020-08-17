@@ -2,22 +2,14 @@ import axios from "axios";
 import baseUrl from "../utils/baseUrl";
 import GardenList from "../components/garden/GardenList";
 import GardenHeader from "../components/garden/GardenHeader";
-import { Header } from "semantic-ui-react";
 
 function Gardens(props) {
-  console.log(props.gardens[0].area);
-  const area = props.gardens[0].area;
-
   return (
-    <div>
+    <>
       <GardenHeader area={props.gardens[0].area}></GardenHeader>
-      {/* <Header as="h1" block>
-        GARDENS IN {titleUpperCase}
-      </Header> */}
-      <div>
-        <GardenList gardens={props}></GardenList>
-      </div>
-    </div>
+
+      <GardenList gardens={props}></GardenList>
+    </>
   );
 }
 
