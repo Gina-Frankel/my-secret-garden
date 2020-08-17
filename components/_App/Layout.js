@@ -3,7 +3,6 @@ import { Container } from "semantic-ui-react";
 import NavBar from "./NavBar";
 
 export default function Layout({ children }) {
-  // console.log(children);
   return (
     <>
       <Head>
@@ -14,6 +13,7 @@ export default function Layout({ children }) {
         />
       </Head>
       <NavBar></NavBar>
+
       <Container>{children} </Container>
     </>
   );
