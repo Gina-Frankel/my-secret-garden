@@ -1,4 +1,3 @@
-import { Header } from "semantic-ui-react";
 import "./GardenHeader.module.css";
 import styles from "../../styles/Home.module.css";
 
