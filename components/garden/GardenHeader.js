@@ -1,15 +1,12 @@
 import { Header } from "semantic-ui-react";
+import "./GardenHeader.module.css";
+import styles from "../../styles/Home.module.css";
 
 function GardenHeader(props) {
-  console.log(props);
   const area = props.area;
   const title = area.replace("-", " ");
   const titleUpperCase = title.toUpperCase();
-  return (
-    <Header as="h1" block>
-      GARDENS IN {titleUpperCase}
-    </Header>
-  );
+  return <h1 className={styles.heading}> {titleUpperCase} GARDENS</h1>;
 }
 
 export default GardenHeader;
